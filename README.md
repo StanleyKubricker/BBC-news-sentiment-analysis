@@ -1,4 +1,4 @@
-# Determining the average sentiment of BBC News articles published on a given topic
+# Investigating the sentiment of BBC News articles published on a given topic
 When given a search term, this code retrieves the URL of all relevant BBC News articles published within the last 30 days using the NewsApi API (https://newsapi.org/).
 
 These URL's are then accessed via the requests library (https://requests.readthedocs.io/en/latest/) and scraped using the Beautiful Soup library (https://www.crummy.com/software/BeautifulSoup/bs4/doc/) to retrieve the content of the article.
